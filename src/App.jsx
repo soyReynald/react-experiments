@@ -1,14 +1,18 @@
 import { useState } from "react";
-import logo from "./logo.png";
 import "./public/css/App.scss";
+import "./public/css/bootstrap.min.css";
+import Main from "./components/Main.jsx";
+import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
     return (
-        <main>
-            <header>
-                <img src={logo} className="App-logo" alt="logo" />
-            </header>
-        </main>
+        <>
+            <Main>
+                <Header />
+                <Footer />
+            </Main>
+        </>
     );
 }
 
