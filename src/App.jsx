@@ -11,7 +11,7 @@ function App() {
         <>
             <Main>
                 <Header />
-                {`This docs are esential: `}<a href={url}>React Router</a>
+                {`These docs are esential: `}<a href={url}>React Router</a>
                 
                 <Footer />
             </Main>
