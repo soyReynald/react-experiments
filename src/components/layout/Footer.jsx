@@ -1,6 +1,6 @@
 import React from "react";
-import footerLogo from "../public/img/footer-logo.png";
-import phoneIcon from "../public/img/phone-icon.png";
+import footerLogo from "../../public/img/footer-logo.png";
+import phoneIcon from "../../public/img/phone-icon.png";
 
 const Footer = () => {
     return (
