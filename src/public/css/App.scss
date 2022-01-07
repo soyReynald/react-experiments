@@ -1,3 +1,15 @@
+@font-face{
+    font-family: Arial-rounded;
+    src: url(../webfonts/arial-rounded-mt-std.woff);
+  }
+  @font-face{
+    font-family: Open-sans;
+    src: url(../webfonts/OpenSans.woff);
+  }
+  @font-face{
+    font-family: Wolf-Sans;
+    src: url(../webfonts/Wolf-Sans.woff);
+  }
 * {
     margin: 0px;
     padding: 0px;
@@ -236,7 +248,7 @@ img.logo_cs {
     padding: 10px 0px;
 }
 section .cursos .controllers {
-    display: flex;
+    display: none;
     justify-content: flex-end;
 }
 .cursos.container h3 {
